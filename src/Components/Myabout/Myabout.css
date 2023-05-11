@@ -1,0 +1,68 @@
+.about{
+    height: 90vh;
+    width: 100vw;
+    padding: 0 7rem;
+    display: flex;
+    gap: 10px;
+   
+    
+}
+.pro{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pro>img{
+    max-width: 90%;
+}
+.about-me{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+   
+}
+.about-me>p{
+    font-size: 1.2vw;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    line-height:30px;
+}
+.about-me>h3{
+    font-size: 1.6vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.about-me>a>p{
+    font-size: 1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+
+}
+
+.about-me>a>p>img{
+    max-width: 10%;
+}
+
+
+@media  screen and (max-width:1240px) {
+    .about-me>p{
+        font-size: ;
+
+    }
+    
+    
+    
+    
+}
